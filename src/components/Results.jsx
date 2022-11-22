@@ -34,8 +34,9 @@ const Results = () => {
                 <p className="text-lg hover-underline dark:text-blue-300 text-blue-700">
                   {title}
                 </p>
-                <p className="text-sm">
-                  {snippet.length > 100 ? snippet.substring(0, 100) : snippet}
+                <p className="break-words text-sm">
+                  {/* {snippet.length > 100 ? snippet.substring(0, 100) : snippet} */}
+                  {snippet}
                 </p>
               </a>
             </div>
